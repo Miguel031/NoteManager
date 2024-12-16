@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    form div {
+        margin-bottom: 10px;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    form input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+/* Estilos para el botón de logout */
+header .logout-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    header .logout-button:hover {
+        background-color: #c82333;
+    }
+
+/* Estilos para el formulario de filtrado */
+.filter-form {
+    margin: 20px 0;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .filter-form input {
+        width: calc(100% - 100px);
+        padding: 8px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .filter-form button {
+        width: 80px;
+        padding: 8px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .filter-form button:hover {
+            background-color: #0056b3;
+        }
+
+/* Estilos para las listas de notas */
+.note-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .note-list h2 {
+        text-align: center;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+
+    .note-list li {
+        background-color: #ffffff;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .note-list li strong {
+            margin-right: 10px;
+        }
+
+    .note-list button {
+        padding: 5px 10px;
+        margin-left: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .note-list button:hover {
+            background-color: #0056b3;
+        }
+
+    /* Estilos específicos para botones de notas */
+    .note-list .archive-button {
+        background-color: #28a745;
+    }
+
+        .note-list .archive-button:hover {
+            background-color: #218838;
+        }
+
+    .note-list .unarchive-button {
+        background-color: #ffc107;
+    }
+
+        .note-list .unarchive-button:hover {
+            background-color: #e0a800;
+        }
+
+    .note-list .delete-button {
+        background-color: #dc3545;
+    }
+
+        .note-list .delete-button:hover {
+            background-color: #c82333;
+        }
